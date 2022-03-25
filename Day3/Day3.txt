@@ -1,0 +1,116 @@
+Azure Data Engineering
+Trainer: Prashant Nair
+================================================================================================
+
+Agenda:
+
+Data warehousing Solutions in Azure
+
+ - Used for OLAP with Historical Bigdata !!!
+
+
+
+Databases ---------------> OLTP 
+			   Tables
+			   Commit
+			   Rollback
+
+
+Data Warehouse --------->  OLAP
+			   Tables
+			   Historical Data
+			   Batch Processing
+			   Immutable
+			   
+Bigdata ---------------->  Hadoop
+			   Apache Hive 
+			   Apache Spark integrated with Hive (HiveContext)
+			   SparkSQL
+
+
+Azure ------------------>  Azure SQL Data Warehouse -- Rebranded -- Azure Synapse Analytics
+
+
+
+
+
+				Cloud PaaS Solutions/App
+					|
+		---------------------------------------------------
+		|						  |
+	
+	Server-based Apps				Server-less Apps
+
+	- Your Database was backed by a 		- The server is managed and provisioned
+	  server which was proisioned by                  by the CSP
+	  the cloud admin.
+
+
+	- Dedicated SQL endpoint			- Serverless SQL endpoint
+
+
+
+
+
+
+
+
+
+
+
+Azure Synapse Analytics Database creation
+
+Pre-req:
+	1. ADLS folder
+	2. Subscription must support the region for server creation
+
+
+
+Azure@123
+
+
+Perform SQL in Synapse ---- 15 mins
+
+
+
+
+
+txnSmall Dataset
+
+1. Create a new container named 'txns' in ADLS storage account
+2. Inside 'txns', create a folder named walmart and upload 'txnsmall' file in it
+3. Create a new database named 'retaildb' in Serverless Synapse
+4. Create table txns with relevant columns
+5. Perform queries for the following
+
+	a. Find the total revenue generated based on category
+	b. Find the total number of transactions done my cash
+	c. Find the total collection of amount done by credit 
+	d. Find the highest selling category 
+	e. Find the lowest selling category
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

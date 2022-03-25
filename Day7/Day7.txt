@@ -1,0 +1,44 @@
+
+
+
+
+	BLOB ---> ADLS ----> Databricks ----> ADLS ----> Synapse
+
+
+Goals:
+1. While transferring data from BLOB to ADLS , I will ensure txns file will have a header
+	BlOB ((txncontainerblob/txns)) ------------> ADLS (txnsprocessed/txnsfolder)
+2. Find the total revenue generated based on category. Output will be stored in ADLS (txnsprocessed/output)
+3. Transfer Data from  ADLS (txnsprocessed/output) to Synapse (revenueresult)
+
+
+Solution:
+
+1. Created a BLOB in StorageV2 account for txns
+2. Created an ADF
+3. Create a fresh container in ADLS
+4. Get the resource ID from Databricks workspace (Workspace > Properties > ResourceID)
+
+
+/subscriptions/76749a9d-b980-4117-80f1-49b71786e19e/resourceGroups/day1Resources/providers/Microsoft.Databricks/workspaces/sparkworkspace123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+Azure Bigdata Engineering
+Trainer: Prashant Nair
+===============================================================================================
+
+				Azure Storage
+					|
+		----------------------------------------------------
+		|						   |
+	  Storage v2					ADLS(Azure DataLake Storage) Gen2
+								-Analytics/OLAP
+								-Optimized for integrating with
+								 multiple processing engines
+
+
+
+Lab1: How to access the storage objects (BLOB/ADLS) using Temporary Keys:
+
+
+Method1: Using Access Key
+
+Go to the storage account
+Go to Security and Networking > Access Keys > Click on Show Keys > Copy any one key(eg. key1)
+Open Storage Explorer (Remove account if reqd)
+Attach the storage using the credentials
+
+Method2: Using SAS(Shared Access Signature) Key
+
+
+
+
+Lab2: Key Rotation Concept and Demo !
+
+Lab3: Accessing Blob Folder using SAS key
+
+Lab4: Creating ADLSGen2 Storage
+
+Lab5: Accessing ADLSGen2 Storage using Access Key
+
+Lab6: Accessing ADLSGen2 Storage using SAS Key
+
+
+
+
+Cloud Service Models
+=====================
+
+1. Software as a Service
+2. Platform as a Service
+3. Infrastructure as a Service
+
+
+Bigdata Engineering Work is done using PaaS platforms in Azure
+
+
+Azure SQL Databases
+=====================
+
+- PaaS Offering.
+
+sqluser
+Azure@123
+
+
+Explore TSQL scripts. ---- 15 mins
+
+
+Task:
+
+1. Create a new database named txns_yourname
+2. Login via SSMS
+3. Create table txns
+4. You need to load dataset from BLOB storage  ------ Hunt assignment (Search)
+
+txnsSmall Dataset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

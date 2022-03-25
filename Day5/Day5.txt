@@ -1,0 +1,42 @@
+
+
+
+Azure Synapse Analytics
+
+	- Serverless Based SQL
+	- SQL Pool
+	- Spark Pool (Preprocessing and Data Transformation)
+
+
+
+Perform following task in Apache Spark Pool
+
+
+
+txnSmall Dataset
+
+1. Create a new container named 'txns' in ADLS storage account
+2. Inside 'txns', create a folder named walmart and upload 'txnsmall' file in it
+3. Create a Dataframe in Apache Spark named Txns
+4. Use SparkSQL to perform the following queries
+
+	a. Find the total revenue generated based on category
+	b. Find the total number of transactions done my cash
+	c. Find the total collection of amount done by credit 
+	d. Find the highest selling category 
+	e. Find the lowest selling category
+
+
+
+
+11:25am IST
+
+
+
+
+
+
+
+
+
+

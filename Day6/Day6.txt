@@ -1,0 +1,69 @@
+
+
+Azure Data Factory
+===================
+
+Helps to create a Data Pipeline for ETL(Extract Transform and Load) or ELT (Extract Load and Transform)
+
+
+- Linked Services
+- Pipeline
+- Data Flow
+
+
+- Create Pipelines using Author Method
+- Create Pipelines using Wizard Method
+
+
+- Invoke Built-in Apache Spark Cluster for Debug Mode
+
+
+
+
+
+Lab1: Transferring data from Blob Storage to Azure SQL database using ADF
+
+1. Created a dedicated storagev2 account for BLOB storage
+	- Created container and uploaded the dataset
+2. Created an Azure SQL Database
+	- Setup Security for accessing database from SSMS
+	- Created table
+3. Create a Data Factory
+
+
+Azure@123
+
+
+Lab2- Perform transfer from Blob to SQL using Author method
+
+
+
+Lab3 - 
+
+
+Blob ----> CopyData -----> ADLSv2 ------> Synapse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

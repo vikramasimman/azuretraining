@@ -1,0 +1,258 @@
+Azure Data Engineer
+Trainer: Prashant Nair
+================================================================================================
+
+
+Claiming our USD200 Microsoft Azure Pass Voucher
+------------------------------------------------
+
+Create an email id in https://outlook.live.com --- 5 min
+
+Email with Voucher Code: QZLFHJ3245BJ8FTN65
+
+
+1. Create Outlook Email address
+2. Open Chrome in INCOGNITO mode
+3. Go to the following link 
+	https://www.microsoftazurepass.com/
+4. Click on Start
+5. Login to your outlook account
+6. Ensure all details like Name, Surname, Email id is shown correct !!!
+7. Click on Confirm Microsoft Account and copy paste the promo/voucher code and click on Claim
+8. Fill in the form with all genuiene details
+9. Click on Signup
+
+
+
+Revision
+=========
+
+BIgdata Project Phases:
+
+1. Data Acquisition
+2. Data Preprocessing
+3. Data Transformation
+4. Data View 
+5. Intelligence Layer
+
+
+Data Acquisition: Getting raw data and storing it in persistant storage (Collect and Store)
+
+Hadoop:
+
+	File -------------->  copyFromLocal  ---------------> HDFS
+				put
+				Hue
+
+	Database---------->  Apache Sqoop -----------> HDFS
+	
+	Streams ---------->  Apache Flume  ------------> HDFS
+
+Spark:
+	
+	File -------------> write() in DF  ---------------> HDFS
+		
+	Database ---------> jdbc() in DF -----------------> HDFS
+
+	Streams ---------> Spark Streaming ---------------> HDFS
+				DStreams
+
+
+Data Preprocessing: Make the data compatible for transformation.
+
+	e.g. Unifying the data
+
+Data Transformation: Transformation operations like
+			a. Filter
+			b. Sort
+			c. Group
+			d. Join
+			e. Union etc
+
+
+Data View: Making the data queryable (Near Realtime/Realtime outputs)
+
+		SQL, NoSQL, SparkSQL
+
+Intelligence Layer: Extracting intelligence out of the data
+
+		ML , DL, Data Mining, Dashboarding, Vis etc
+
+
+
+
+
+Cloud Computing ----- National Institute of Standards and Technologies (US)
+------------------
+
+
+Cloud computing is not a technical term. Its a business term.
+
+Cloud computing is a model to perform
+
+	- Delivery of IT and IT-enabled services over the Internet
+	- Services are charged based on Pay per usage model
+
+
+As per NIST,
+
+Cloud computing is a model that enables,
+	
+	UBIQUITOUS (Any network / any web-enabled device)
+	ON-DEMAND ( I can use my service anytime 24/7/365 )
+	CONVENIENT (no third party/broker involved. Everything is direct)
+
+access to the shared pool of CONFIGURABLE computing resources that can be
+	
+	RAPIDLY PROVISIONED AND RELEASED
+
+with minimal management effort or service provider interaction.
+
+
+
+
+
+
+Cloud Service and Deployment Models
+=====================================
+
+As per NIST there exists 3 service models and 4 deployment models
+
+3 Service Models
+	a. SaaS (Software as a Service)
+
+		- Targetted towards End User
+		- They provide software 
+		- Here the infra and the software is managed by the service provider
+		- E.g. GMail, Google Docs, GDrive, OneDrive, DropBox etc
+
+
+	b. PaaS (Platform as a Service)
+		
+		- Provides platform mostly for developers
+		- Platform content is managed by Dev where as the underlying Infra is managed by                   the service provider.
+		- Wordpress,Drupal,Joomla (Content Management System)
+	
+	c. IaaS (Infrastructure as a Service)
+
+		- Hardware on Demand Service
+		- Provision yourself with a Virtual Machine
+			- RAM,DISK,CPU,GPU,OS,Network,Internet
+
+
+
+4 Deployment Models:
+
+	1. Private Cloud
+	2. Public Cloud
+	3. Community Cloud
+	4. Hybrid Cloud
+	
+
+	1. Private Cloud:
+		- Cloud is deployed for a specific organization
+		- Organization owns the data and the hardware
+		- Management, maintenance and all related activities are done by the 		  organization.
+
+	2. Public Cloud:
+		- Cloud maintained by an organization for public use.
+		- Organization owns the hardware
+		- Ideally when it comes to data ownership, it depends on the SLA(Service Level                   Agreement)
+
+	3. Community Cloud:
+		- Cloud is maintained by one organization can be used by a limited set of orgn.
+		- Organization owns the hardware
+		- Ideally when it comes to data ownership, it depends on the SLA(Service Level                   Agreement)
+
+	4. Hybrid Cloud:
+		- Combination setup of Public and Private cloud	
+		- Maintain data in Private cloud and use apps from public cloud
+		- Data is owned by one party and infra is owned by another party
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Azure
+===================
+
+- They are the CSP (Cloud Service Provider)
+- It offers all services (SaaS, PaaS, IaaS) (Public, Community, Private, Hybrid)
+
+Data Engineering Customized Course:
+	
+	- Storage Account
+	- SQL Database
+	- Synapse Analytics
+	- Databricks
+
+
+
+Azure Storage Account
+=====================
+
+				Data Storage
+				Azure Storage Account
+					|
+		-------------------------------------------------
+		|						|
+	Standard Storage				Azure DataLake Storage v2
+ (General Storage Operations)				(Used for Data Analytics)
+	Storage v2
+
+BLOB / Object Storage					Meant for OLAP
+Table Service (Structured data)
+File Services
+Queue Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
